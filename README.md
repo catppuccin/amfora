@@ -17,7 +17,7 @@
 
 ## Usage
 
-1. Copy/paste the contents of `config.toml` to the theme section of your Amfora config. For more info, see Amfora's [default-config.toml](https://github.com/makeworld-the-better-one/amfora/blob/master/default-config.toml)
+1. Copy/paste the contents of `latte.toml`, `frappe.toml`, `macchiato.toml`, or `mocha.toml` to the theme section of your Amfora config. For more info, see Amfora's [default-config.toml](https://github.com/makeworld-the-better-one/amfora/blob/master/default-config.toml)
 
 ## 💝 Thanks to
 
