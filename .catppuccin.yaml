@@ -1,0 +1,28 @@
+# A Catppuccin RC file for Amfora. In beta, specs may change.
+app_name: amfora
+binary_name: amfora
+installation:
+    location:
+        macos: ~/.config/amfora/
+        linux: ~/.config/amfora/
+        windows: "%appdata%/amfora/"
+    flavours:
+        all:
+            default:
+                - themes
+        latte:
+            default:
+                - themes/latte.toml
+        frappe:
+            default:
+                - themes/frappe.toml
+        macchiato:
+            default:
+                - themes/macchiato.toml
+        mocha:
+            default:
+                - themes/mocha.toml
+    to: themes/
+    one_flavour: false
+    
+
