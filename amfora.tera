@@ -1,0 +1,55 @@
+---
+whiskers:
+  version: 2.0.0
+  matrix:
+    - flavor
+  filename: "themes/{{flavor.identifier}}.toml"
+---
+{%- set palette = flavor.colors -%}
+[theme]
+bg = "#{{ palette.base.hex }}"
+tab_num = "#{{ palette.mauve.hex }}"
+tab_divider = "#{{ palette.subtext0.hex }}"
+bottombar_text = "#{{ palette.teal.hex }}"
+bottombar_bg = "#{{ palette.surface1.hex }}"
+scrollbar = "#{{ palette.surface1.hex }}"
+
+hdg_1 = "#{{ palette.mauve.hex }}"
+hdg_2 = "#{{ palette.mauve.hex }}"
+hdg_3 = "#{{ palette.mauve.hex }}"
+amfora_link = "#{{ palette.red.hex }}"
+foreign_link = "#{{ palette.peach.hex }}"
+link_number = "#{{ palette.teal.hex }}"
+regular_text = "#{{ palette.text.hex }}"
+quote_text = "#{{ palette.yellow.hex }}"
+preformatted_text = "#{{ palette.peach.hex }}"
+list_text = "#{{ palette.text.hex }}"
+
+btn_bg = "#{{ palette.surface1.hex }}"
+btn_text = "#{{ palette.text.hex }}"
+
+dl_choice_modal_bg = "#{{ palette.surface1.hex }}"
+dl_choice_modal_text = "#{{ palette.text.hex }}"
+dl_modal_bg = "#{{ palette.surface1.hex }}"
+dl_modal_text = "#{{ palette.text.hex }}"
+info_modal_bg = "#{{ palette.surface1.hex }}"
+info_modal_text = "#{{ palette.text.hex }}"
+error_modal_bg = "#{{ palette.red.hex }}"
+error_modal_text = "#{{ palette.mantle.hex }}"
+yesno_modal_bg = "#{{ palette.surface1.hex }}"
+yesno_modal_text = "#{{ palette.text.hex }}"
+tofu_modal_bg = "#{{ palette.surface1.hex }}"
+tofu_modal_text = "#{{ palette.text.hex }}"
+subscription_modal_bg = "#{{ palette.surface1.hex }}"
+subscription_modal_text = "#{{ palette.text.hex }}"
+
+input_modal_bg = "#{{ palette.surface1.hex }}"
+input_modal_text = "#{{ palette.text.hex }}"
+input_modal_field_bg = "#{{ palette.surface0.hex }}"
+input_modal_field_text = "#{{ palette.text.hex }}"
+
+bkmk_modal_bg = "#{{ palette.surface1.hex }}"
+bkmk_modal_text = "#{{ palette.text.hex }}"
+bkmk_modal_label = "#{{ palette.text.hex }}"
+bkmk_modal_field_bg = "#{{ palette.surface0.hex }}"
+bkmk_modal_field_text = "#{{ palette.text.hex }}"
