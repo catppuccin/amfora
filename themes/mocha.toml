@@ -1,5 +1,5 @@
 [theme]
-bg = "#1E1E2E"
+bg = "#1e1e2e"
 tab_num = "#cba6f7"
 tab_divider = "#a6adc8"
 bottombar_text = "#94e2d5"
@@ -45,4 +45,3 @@ bkmk_modal_text = "#cdd6f4"
 bkmk_modal_label = "#cdd6f4"
 bkmk_modal_field_bg = "#313244"
 bkmk_modal_field_text = "#cdd6f4"
-
